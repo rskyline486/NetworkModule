@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ServiceCore">
+      <UniqueIdentifier>{925aa8f3-c522-46c9-afab-069811e9fa02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ServiceKernel">
+      <UniqueIdentifier>{bfd8799d-63a8-4a25-8471-e15c2073debd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ServiceWrapper">
+      <UniqueIdentifier>{d145858f-770b-4699-8f54-48cc55c2b1a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\Buffer.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\Locker.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\Logger.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\Network.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\ServiceCore.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\Singleton.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\Thread.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\AcceptItem.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\ConnectItem.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\DetectThread.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\ServiceKernel.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\SocketItem.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\WorkerThread.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NetworkModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCore\DataQueue.h">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\AsynchronismEngine.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceWrapper\ProxyWrapper.h">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceWrapper\ServerWrapper.h">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceWrapper\ClientWrapper.h">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\TimerEngine.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceWrapper\AsynchronismWrapper.h">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceWrapper\TimerWrapper.h">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceWrapper\AttemperWrapper.h">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceKernel\CryptoCore.h">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceWrapper\ProcessWatchWrapper.h">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCore\Buffer.cpp">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCore\Locker.cpp">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCore\Logger.cpp">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCore\Network.cpp">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCore\ServiceCore.cpp">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCore\Thread.cpp">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\AcceptItem.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\ConnectItem.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\DetectThread.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\ServiceKernel.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\SocketItem.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\WorkerThread.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCore\DataQueue.cpp">
+      <Filter>头文件\ServiceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\AsynchronismEngine.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceWrapper\ProxyWrapper.cpp">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceWrapper\ServerWrapper.cpp">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceWrapper\ClientWrapper.cpp">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\TimerEngine.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceWrapper\AsynchronismWrapper.cpp">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceWrapper\TimerWrapper.cpp">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceWrapper\AttemperWrapper.cpp">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceKernel\CryptoCore.cpp">
+      <Filter>头文件\ServiceKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceWrapper\ProcessWatchWrapper.cpp">
+      <Filter>头文件\ServiceWrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
